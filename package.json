@@ -1,0 +1,32 @@
+{
+  "name": "_wdio_appium_cucumber",
+  "version": "1.0.0",
+  "description": "This project to run native ios app using cucumber with page object pattern",
+  "scripts": {
+    "ios.sauce.real": "REGION=eu wdio config/ios.config.js"
+  },
+  "keywords": [
+    "Appium",
+    "cucumber",
+    "wdio",
+    "mobile automation"
+  ],
+  "author": "Bai Bai",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^7.3.2",
+    "@wdio/appium-service": "^7.16.14",
+    "@wdio/cli": "^7.16.15",
+    "@wdio/cucumber-framework": "^7.16.14",
+    "@wdio/local-runner": "^7.16.15",
+    "@wdio/sauce-service": "^7.16.12",
+    "@wdio/spec-reporter": "^7.16.14",
+    "@wdio/sync": "^7.16.15",
+    "cucumber": "^6.0.5"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "multiple-cucumber-html-reporter": "^1.19.0",
+    "wdio-cucumberjs-json-reporter": "^2.0.4"
+  }
+}
